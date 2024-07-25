@@ -1,7 +1,9 @@
 //CRUD
 //creating element with js//goes hand in hand with append in container
-let head = getElementById("head");
+let head = getElementById("head")
 let addButton = getElementById("add-Product");
+let addBranch = document.getElementById("add-branch");
+addEventListener("click", function() {console.log("addbutton has been clicked")});
 addEventListener("click", function() {
     let newProduct =document.createElement("p");
     newProduct.textContent="beans";  
